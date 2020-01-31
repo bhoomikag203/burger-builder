@@ -1,12 +1,13 @@
 import React from 'react';
 import Layout from './components/Layout/Layout';
-import Aux from './hoc/Aux';
+import BurgerBuilder from './containers/BurgerBuilder/BurgerBuilder';
 
 function App() {
   return (
     <div>
       <Layout >
         <p>My burger</p>
+        <BurgerBuilder />
       </Layout>
     </div>
   );
