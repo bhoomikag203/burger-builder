@@ -10,7 +10,8 @@ let controls = [
 ]
 
 const BuildControls = (props) => (
-    <div className={classes.BuildControls}>
+    <div className={classes.BuildControls} >
+        <p>Total Price = <strong>Rs. {props.price}/-</strong></p>
         {controls.map(ctrl => (
             <BuildControl
                 key={ctrl.label}
