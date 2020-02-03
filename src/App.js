@@ -6,7 +6,6 @@ function App() {
   return (
     <div>
       <Layout >
-        <p>My burger</p>
         <BurgerBuilder />
       </Layout>
     </div>
